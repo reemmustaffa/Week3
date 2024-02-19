@@ -1,0 +1,39 @@
+.first div {
+    display: inline-block;
+    background-color: #eee;
+    padding: 30px ;
+    margin: 20px;
+}
+.one {
+    border: 5px solid red;
+    outline: 5px solid black;
+}
+.two {
+    border-color: blue green;
+    border-width: 5px;
+    border-style: solid;
+    outline: 5px solid black;
+}
+.three {
+    border-color: red green blue yellow;
+    border-width: 5px;
+    border-style: dashed;
+    outline: 5px solid black;
+}
+.second div {
+    width: 400px;
+    background-color: #eee;
+    margin: 10px;
+    padding: 20px;
+}
+.element-2{
+    visibility: hidden;
+}
+.element-1{
+    border-left: 7px solid red;
+    outline: 10px solid #eee;
+}
+.element-3{
+    border-left: 7px solid green;
+    outline: 10px solid #eee;
+}

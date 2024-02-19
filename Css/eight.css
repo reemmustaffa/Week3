@@ -1,0 +1,143 @@
+.parent .green,
+.blue,
+.red,
+.balck {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.green {
+    background-color: #00838F;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+}
+.blue {
+    background-color: #0277BD;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+.red {
+    background-color: #F44336;
+    z-index: 3;
+    top: 40px;
+    left: 40px;
+}
+.balck {
+    background-color: black;
+}
+.second .lo {
+    margin-top:180px ;
+    background-color: #eee;
+    width: 400px;
+    text-align: center;
+    border-width: 3px;
+    border-color: red #29B6F6;
+    border-style: solid;
+    font-size: large;
+    height: 100px;
+    padding: 10px 10px;
+}
+.second .top-left {
+    position: absolute;
+    top: 178px;
+    background-color: #29B6F6;
+    border-right: 2px solid red;
+    width: 40px;
+    text-align: center;
+}
+.second .bottom-left {
+    position: absolute;
+    top: 296px;
+    background-color: #29B6F6;
+    border-right: 2px solid red;
+    width: 40px;
+    text-align: center;
+}
+.second .top-right {
+    position: absolute;
+    top: 177px;
+    left: 392px;
+    background-color: #29B6F6;
+    border-left: 2px solid red;
+    width: 40px;
+    text-align: center;
+}
+.second .bottom-right {
+    position: absolute;
+    bottom: 423px;
+    left: 392px;
+    background-color: #29B6F6;
+    border-left: 2px solid red;
+    width: 40px;
+    text-align: center;
+
+}
+.ul {
+    width: 400px;
+    margin: 20px auto;
+}
+.html,
+.css,
+.js {
+    background-color: #eee;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.html ol,
+.css ol,
+.js ul { 
+    padding: 16px;
+    margin: 5px;
+}
+.html ol li,
+.css ol li  {
+    background-color: white;
+    margin-bottom: 7px;
+    margin-right: -8px;
+    padding: 5px;
+}
+.css ol {
+    list-style-type: upper-roman;
+}
+.js ul li {
+    background-color: white;
+    margin-bottom: 7px;
+    margin-right: -8px;
+    padding: 5px;
+}
+caption{
+    font-weight: bold;
+}
+table {
+    width: 700px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+table thead {
+    background-color:#37474F;
+    font-weight: bold;
+    color: white;
+}
+table tbody {
+    background-color: #eee;
+    padding: 8px;
+    margin: 3px;
+}
+table .one {
+    background-color: #29B6F6;
+}
+table .two {
+    background-color: #EC407A;
+}
+table .one,
+table .two {
+    color: white;
+    font-weight: 200;
+    margin-right: 5px;
+    text-align: center;
+}
